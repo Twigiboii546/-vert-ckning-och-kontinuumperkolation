@@ -19,7 +19,7 @@ class runloop():
         self.figures.append(figure)
 
         
-
+print("Hello")
 
 
 def plane(lenth, figures):
