@@ -30,3 +30,4 @@ class Scene():
 
 test = Scene()
 
+input()
