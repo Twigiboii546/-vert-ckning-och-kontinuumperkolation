@@ -1,5 +1,8 @@
 import numpy as np
-import math as m
+import matplotlib as pl
+import tkinter as tk
+
+
 class square():
     def __init__(self, side,posx,posy):
         self.side=side
@@ -19,8 +22,11 @@ class runloop():
         self.figures.append(figure)
 
         
-print("Hello")
+class Scene():
+    def __init__(self):
+       self.canvas = tk.Canvas(width=500, height=400, background='gray75')
+       
 
 
-def plane(lenth, figures):
-    print("no")
+test = Scene()
+
