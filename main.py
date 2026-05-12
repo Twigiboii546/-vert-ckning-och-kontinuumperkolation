@@ -23,4 +23,4 @@ print("Hello")
 
 
 def plane(lenth, figures):
-    
+    print("no")
